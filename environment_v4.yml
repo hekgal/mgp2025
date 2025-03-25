@@ -7,7 +7,8 @@ dependencies:
   - jupyter
   - jupyterlab
   - seaborn
-  - mkl-service
+  - nomkl
+  - openblas
   - watermark
   - pymc==4.3.0
   - arviz==0.13.0
@@ -15,8 +16,6 @@ dependencies:
   - aesara==2.8.7
   - theano-pymc==1.1.2
   - tqdm
-  - mkl
-  - mkl-service
   - pip
   - pip:
     - daft
